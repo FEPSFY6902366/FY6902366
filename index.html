@@ -141,27 +141,27 @@ control, as shown in Figure 1.</pre>
 
   <a href="#(Wikimedia Commons. 2008)">(Wikimedia Commons. 2008)</a>.
   
-
+<pre id="Main2_InText">
 The construction sector faces diverse financial risks, including cost inflation, fluctuating interest 
 rates, and exchange rate volatility. Comprehensive risk assessments enable companies to anticipate 
 potential financial pitfalls and develop contingency plans. Risk transfer mechanisms, such as insurance 
 and fixed-price contracts, further protect against unforeseen expenses.
 The collapse of Carillion in 2018, driven by mismanaged financial risks, highlights the need for proactive 
-risk mitigation strategies, as depicted in Figure 2.
+risk mitigation strategies, as depicted in Figure 2.</pre>
 
   
   <a href="#House of Commons library. (2018)">(House of Commons library. 2018)</a>.
   
- 
+<pre id="Main3_InText"> 
 Financial management in construction involves the allocation, control, and monitoring of financial resources
 to meet project goals. It includes budgeting, cost estimation, cash flow forecasting, financial 
-risk assessment, and performance evaluation.
+risk assessment, and performance evaluation.</pre>
 
 
 </p>
     
 <p class="ex1">
-
+<pre id="Main4_InText">
 Cash flow management ensures the timely availability of funds to meet project expenses. Construction projects often 
 involve staggered payments and delayed receivables, which can lead to liquidity challenges. Efficient cash flow 
 management prevents disruptions in procurement and labor payments, safeguarding project timelines and quality. 
@@ -171,8 +171,9 @@ Beyond individual projects, long-term financial planning is crucial for sustaini
 Strategic financial planning involves capital investment decisions, debt management, and profit reinvestment. 
 Firms that adopt a forward-looking approach can weather cyclical industry downturns and maintain competitive advantage. 
 Digital tools, such as Building Information Modelling (BIM) integrated with financial planning software, enhance 
-decision-making by providing real-time financial data and predictive analytics.
+decision-making by providing real-time financial data and predictive analytics.</pre>
 
+<pre id="Main5_InText">  
 <p>
   Effective financial management delivers multiple benefits:
 <p>
@@ -190,9 +191,10 @@ decision-making by providing real-time financial data and predictive analytics.
 <p>
 - Sustainability: Long-term financial strategies contribute to business resilience and sustainability.
 </p>
-
+</pre>
 </p>
 
+<pre id="Main6_InText">  
 <p>
   Despite its importance, financial management in construction faces several challenges:
 <br>- Complexity of Projects: Large-scale projects involve intricate financial coordination across multiple teams and locations.
@@ -200,11 +202,12 @@ decision-making by providing real-time financial data and predictive analytics.
 <br>- Technological Barriers: While digital tools are invaluable, their adoption requires significant investment and training.
 
 </p>
-
+</pre>
+<pre id="Main7_InText">
 <p>
 Addressing these challenges requires a combination of skilled personnel, robust systems, and a culture of continuous improvement.
-
 </p>
+</pre>
 <p class="ex1">
 
    <img src="Figure2.png" style="margin: 20px 20px 20px 20px;" alt="Figure2" width="564" height="440">
@@ -229,7 +232,7 @@ Addressing these challenges requires a combination of skilled personnel, robust 
 </p>
     
 <p class="ex1">
-  
+<pre id="Main8_InText">  
 The integration of financial technology (fintech) in construction is revolutionizing financial management practices. 
 Tools such as automated accounting software, cloud-based project management platforms, and predictive analytics 
 are enabling real-time monitoring and enhanced decision-making. These technologies streamline processes such as 
@@ -237,19 +240,19 @@ invoicing, payroll management, and cost tracking, reducing human error and impro
 technology is also emerging as a significant player in financial management for construction. By creating 
 transparent and immutable transaction records, blockchain reduces disputes over payments and fosters trust among 
 stakeholders. Smart contracts, another blockchain application, automate payment releases based on predefined milestones, 
-ensuring timely cash flow.
+ensuring timely cash flow. </pre>
   
 </p>
 
 <p>
-
+<pre id="Main9_InText">
 Sustainability is becoming an integral part of financial planning in construction. Green construction practices, 
 while sometimes associated with higher initial costs, offer long-term financial benefits through energy efficiency 
 and reduced operational expenses. Financial managers are increasingly incorporating life-cycle cost analysis to 
 evaluate the economic feasibility of sustainable initiatives. For instance, the adoption of renewable energy sources 
 and sustainable materials can reduce future liabilities associated with environmental compliance and operational costs. 
 Incentives and grants for green building certifications also provide financial advantages, encouraging firms to align 
-their strategies with sustainability goals.
+their strategies with sustainability goals. </pre>
 </p>
 
     
@@ -398,8 +401,16 @@ increasingly vital for sustaining growth and competitiveness.
     // Calculate word count for each section and accumulate the total
     const IntroductionCount = displayWordCount("Introduction_InText");
     const MainCount = displayWordCount("Main_InText");
+    const Main2Count = displayWordCount("Main2_InText");
+    const Main3Count = displayWordCount("Main3_InText");
+    const Main4Count = displayWordCount("Main4_InText");
+    const Main5Count = displayWordCount("Main5_InText");
+    const Main6Count = displayWordCount("Main6_InText");
+    const Main7Count = displayWordCount("Main7_InText");
+    const Main8Count = displayWordCount("Main8_InText");
+    const Main9Count = displayWordCount("Main9_InText");
     // Calculate the sum of all selected sections
-    const totalWordCount = IntroductionCount + MainCount;
+    const totalWordCount = IntroductionCount + MainCount + Main2Count + Main3Count + Main4Count + Main5Count + Main6Count + Main7Count + Main8Count + Main9Count;
     // Display the total word count
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }
