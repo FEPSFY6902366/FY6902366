@@ -409,8 +409,9 @@ increasingly vital for sustaining growth and competitiveness.
     const Main7Count = displayWordCount("Main7_InText");
     const Main8Count = displayWordCount("Main8_InText");
     const Main9Count = displayWordCount("Main9_InText");
+    const ConclusionCount = displayWordCount("Conclusion_InText");
     // Calculate the sum of all selected sections
-    const totalWordCount = IntroductionCount + MainCount + Main2Count + Main3Count + Main4Count + Main5Count + Main6Count + Main7Count + Main8Count + Main9Count;
+    const totalWordCount = IntroductionCount + MainCount + Main2Count + Main3Count + Main4Count + Main5Count + Main6Count + Main7Count + Main8Count + Main9Count + ConclusionCount;
     // Display the total word count
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }
